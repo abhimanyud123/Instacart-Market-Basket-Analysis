@@ -1,14 +1,14 @@
 # 🛒 Instacart Market Basket Analysis using PostgreSQL & Power BI
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-This project analyzes customer purchasing behavior using the Instacart Online Grocery Shopping Dataset. The analysis was performed using **PostgreSQL** for data processing and **Power BI** for visualization, following a complete end-to-end data analytics workflow.
+This project analyzes customer purchasing behavior using the **Instacart Online Grocery Shopping Dataset**. The analysis was performed using **PostgreSQL** for data processing and **Power BI** for visualization, following a complete end-to-end data analytics workflow.
 
 The project transforms raw transactional data into meaningful business insights by exploring customer behavior, product performance, department contribution, reorder patterns, and shopping trends.
 
 ---
 
-## 🎯 Business Problem
+# 🎯 Business Problem
 
 Instacart processes millions of grocery orders, making it challenging to understand customer purchasing behavior and optimize business operations.
 
@@ -25,18 +25,19 @@ The insights generated support inventory planning, customer retention, marketing
 
 ---
 
-## 🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 
 - PostgreSQL
 - SQL
 - Power BI Desktop
+- DAX
 - Git & GitHub
 - Markdown
 - CSV Dataset
 
 ---
 
-## 📂 Project Workflow
+# 📂 Project Workflow
 
 ```text
 Raw CSV Files
@@ -58,11 +59,11 @@ Power BI Dashboard
 
 ---
 
-## 📊 Power BI Dashboard
+# 📊 Power BI Dashboard
 
-The dashboard consists of two report pages.
+The dashboard consists of two interactive report pages.
 
-### Executive Overview
+## Executive Overview
 
 - Total Orders
 - Total Customers
@@ -74,37 +75,41 @@ The dashboard consists of two report pages.
 - Customer Segments
 - Top Product by Department
 
-### Detailed Analysis
+![Executive Overview](PowerBI/Executive.overview.png)
+
+---
+
+## Detailed Analysis
 
 - Top 10 Best-Selling Products
 - Reorder Rate by Department
 - Department Performance
 - Top Product by Department
 
-The dashboard is powered entirely by PostgreSQL reporting views.
+![Detailed Analysis](PowerBI/Detailed.analysis.png)
 
 ---
 
-## 📈 Key Business Insights
+# 📈 Key Business Insights
 
-- Customers purchase an average of **10.09 products** per order.
+- Customers purchase an average of **10.09** products per order.
 - Nearly **59%** of purchased products are reordered.
-- **Produce** contributes the largest share of total product orders.
-- **Dairy & Eggs** has the highest department reorder rate.
+- Produce contributes the largest share of total product orders.
+- Dairy & Eggs has the highest department reorder rate.
 - Shopping activity peaks between **10:00 AM and 3:00 PM**.
 - Fresh produce products dominate the list of best-selling items.
 - Most customers belong to the **Low Value** customer segment.
 
 ---
 
-## 📁 Repository Structure
+# 📁 Repository Structure
 
 ```text
 Instacart-Market-Basket-Analysis/
 │
-├── dataset/
+├── Dataset/
 │
-├── sql/
+├── SQL/
 │   ├── 01_database_setup.sql
 │   ├── 02_data_validation.sql
 │   ├── 03_data_cleaning.sql
@@ -112,7 +117,7 @@ Instacart-Market-Basket-Analysis/
 │   ├── 05_business_analysis.sql
 │   └── 06_views.sql
 │
-├── documentation/
+├── Documentation/
 │   ├── Project Overview.md
 │   ├── Data Dictionary.md
 │   ├── Data Validation Report.md
@@ -121,16 +126,18 @@ Instacart-Market-Basket-Analysis/
 │   ├── Business Insights.md
 │   └── Dashboard.md
 │
-├── dashboard/
+├── PowerBI/
 │   ├── Instacart_Market_Basket_Analysis.pbix
-│   └── Instacart_Market_Basket_Analysis.pdf
+│   ├── Instacart_Market_Basket_Analysis.pdf
+│   ├── Executive.overview.png
+│   └── Detailed.analysis.png
 │
 └── README.md
 ```
 
 ---
 
-## 📄 Documentation
+# 📄 Documentation
 
 The repository includes comprehensive project documentation:
 
@@ -144,9 +151,9 @@ The repository includes comprehensive project documentation:
 
 ---
 
-## 🚀 Skills Demonstrated
+# 🚀 Skills Demonstrated
 
-### SQL
+## SQL
 
 - Database Creation
 - Data Validation
@@ -158,8 +165,9 @@ The repository includes comprehensive project documentation:
 - CASE Statements
 - Reporting Views
 
-### Power BI
+## Power BI
 
+- DAX Measures
 - KPI Cards
 - Bar Charts
 - Line Charts
@@ -167,8 +175,10 @@ The repository includes comprehensive project documentation:
 - Tables
 - Dashboard Design
 - Data Modeling
+- Interactive Slicers
+- Data Visualization
 
-### Business Analytics
+## Business Analytics
 
 - Customer Behavior Analysis
 - Product Performance Analysis
@@ -180,7 +190,7 @@ The repository includes comprehensive project documentation:
 
 ---
 
-## 📌 Dataset
+# 📌 Dataset
 
 **Source:** Instacart Online Grocery Shopping Dataset
 
@@ -188,10 +198,8 @@ The dataset contains over **3.4 million grocery orders**, **206,209 customers**,
 
 ---
 
-## 📬 Contact
+# 📬 Contact
 
 If you have any questions or feedback about this project, feel free to connect with me through GitHub or LinkedIn.
 
----
-
-⭐ If you found this project useful or interesting, consider giving the repository a star.
+⭐ **If you found this project useful or interesting, consider giving the repository a star.**
